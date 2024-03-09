@@ -19,5 +19,5 @@ Embora este repositório seja principalmente para meu próprio aprendizado, esto
 Se você tiver alguma dúvida ou comentário, sinta-se à vontade para me contatar:
 
 - 📧 E-mail: contatovictorvinicius05@gmail.com
-- 🌐 LinkedIn: Victor Vinicius
+- 🌐 LinkedIn: Victor Vinicius(https://www.linkedin.com/in/victor-vinicius-2a9166255/)
 
