@@ -16,6 +16,8 @@ Embora este repositório seja principalmente para meu próprio aprendizado, esto
 
 ## Contato
 
-Se você tiver alguma dúvida ou comentário, sinta-se à vontade para me contatar.
+Se você tiver alguma dúvida ou comentário, sinta-se à vontade para me contatar:
 
-Obrigado por visitar meu repositório!
+- 📧 E-mail: contatovictorvinicius05@gmail.com
+- 🌐 LinkedIn: Victor Vinicius
+
