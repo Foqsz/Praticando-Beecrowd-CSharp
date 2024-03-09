@@ -6,7 +6,6 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            int contadorImpares = 0;
             int contador = 0;
             int numero = int.Parse(Console.ReadLine());
             
