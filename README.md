@@ -1,5 +1,6 @@
-# Exercícios Resolvidos do BeeCrowd
-![image](https://github.com/Foqsz/Praticando-Beecrowd-CSharp/assets/96602671/42eb8fad-9671-4f01-b887-7bd66a016401)
+# Exercícios Resolvidos do BeeCrowd em C Sharp.
+![image](https://github.com/Foqsz/Praticando-Beecrowd-CSharp/assets/96602671/e072d547-c3f1-4931-9ca3-c1e85f9126ce)
+
 
 Olá! 👋 Bem-vindo ao meu repositório de exercícios resolvidos do BeeCrowd. Sou um desenvolvedor júnior e estou atualmente aprimorando minhas habilidades em C#.
 
