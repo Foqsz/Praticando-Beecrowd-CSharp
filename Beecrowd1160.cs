@@ -1,6 +1,8 @@
+//https://judge.beecrowd.com/pt/runs/code/39434435
+
 using System;
-using System.Globalization; 
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Course
 {
@@ -11,35 +13,31 @@ namespace Course
             List<CasosTeste> listTestes = new List<CasosTeste>();
 
             int T = int.Parse(Console.ReadLine());
-             
+
             for (int i = 0; i < T; i++)
             {
                 string[] casosTeste = Console.ReadLine().Split(' ');
                 int PA = int.Parse(casosTeste[0]);
                 int PB = int.Parse(casosTeste[1]);
-                float G1 = float.Parse(casosTeste[2], CultureInfo.InvariantCulture);
-                float G2 = float.Parse(casosTeste[3], CultureInfo.InvariantCulture); 
+                double G1 = double.Parse(casosTeste[2], CultureInfo.InvariantCulture);
+                double G2 = double.Parse(casosTeste[3], CultureInfo.InvariantCulture);
                 listTestes.Add(new CasosTeste(PA, PB, G1, G2));
-
-
             }
-             
-            foreach (var CasosTeste in listTestes)
+
+            foreach (var casosTeste in listTestes)
             {
-                Console.WriteLine(CasosTeste.SomarCrescimento());
+                Console.WriteLine(casosTeste.SomarCrescimento());
             }
-
-
         }
 
         public class CasosTeste
         {
             public int PA { get; set; }
             public int PB { get; set; }
-            public float G1 { get; set; }
-            public float G2 { get; set; }
+            public double G1 { get; set; }
+            public double G2 { get; set; }
 
-            public CasosTeste(int pA, int pB, float g1, float g2)
+            public CasosTeste(int pA, int pB, double g1, double g2)
             {
                 PA = pA;
                 PB = pB;
@@ -49,19 +47,21 @@ namespace Course
 
             public string SomarCrescimento()
             {
-                int ano = 0;
-                while (PA < PB)
+                int anos;
+                for (anos = 1; PA <= PB && anos < 101; ++anos)
                 {
-                    PA += (int)(PA * (G1 / 100));
-                    PB += (int)(PB * (G2 / 100));
-                    ano++;
-
-                    if (ano > 100)
-                    {
-                        return "Mais de 1 seculo.";
-                    }
+                    PA += (int)(PA * G1 / 100);
+                    PB += (int)(PB * G2 / 100);
                 }
-                return ano + " anos.";
+
+                if (PA <= PB)
+                {
+                    return "Mais de 1 seculo.";
+                }
+                else
+                {
+                    return $"{anos - 1} anos.";
+                }
             }
         }
     }
