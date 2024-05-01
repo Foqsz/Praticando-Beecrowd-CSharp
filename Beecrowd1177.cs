@@ -18,9 +18,7 @@ namespace Course
 
                 if (i == 999) // Reinicia valor quando atingir a última posição do array
                     valor = 0;
-            }
-
-            string n = Console.ReadLine();
+            } 
         }
     }
 }
