@@ -1,6 +1,5 @@
-using System;
-using System.Globalization;
-https://judge.beecrowd.com/pt/runs/code/39435695
+using System; 
+//https://judge.beecrowd.com/pt/runs/code/39435695
 namespace Course
 {
     internal class Program
