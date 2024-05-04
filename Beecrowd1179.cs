@@ -1,5 +1,6 @@
 using System;
 //By @Foqsz
+//https://judge.beecrowd.com/pt/runs/code/39500606
 namespace Course
 {
     internal class Program
